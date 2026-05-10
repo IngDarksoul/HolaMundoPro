@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hallo Welt Pro</string>
+    <string name="titulo_app">Hallo Welt!</string>
+    <string name="texto">Dies ist eine Anwendung mit mehrsprachiger Unterstützung und responsivem Design.</string>
+    <string name="button_text">Akzeptieren</string>
+</resources>

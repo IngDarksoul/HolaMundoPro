@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_size">30sp</dimen>
+    <dimen name="margin_top_title">50dp</dimen>
+    <dimen name="margin_standard">20dp</dimen>
+    <dimen name="image_size">200dp</dimen>
+    <dimen name="button_width">278dp</dimen>
+    <dimen name="text_size_secondary">20sp</dimen>
+    <dimen name="text_view_width">242dp</dimen>
+    <dimen name="text_view_height">41dp</dimen>
+</resources>
