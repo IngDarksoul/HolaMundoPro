@@ -3,33 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/marcianito">
+    android:background="@drawable/marcianito"
+    android:padding="0dp">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_margin_top"
         android:text="@string/titulo_app"
         android:textColor="#FFFFFF"
         android:textSize="@dimen/welcome_text_size"
         android:textStyle="bold"
-        android:layout_marginTop="@dimen/title_margin_top"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="@dimen/button_width_standard"
         android:layout_height="wrap_content"
-        android:text="@string/button_text"
-        android:textColor="#FFFFFF"
+        android:layout_marginTop="64dp"
         android:background="@drawable/button_border"
+        android:text="@string/button_text"
         android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/textView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
