@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Bonjour le Monde Pro</string>
-    <string name="titulo_app">Bonjour le Monde !</string>
-    <string name="texto">C\'est une application avec un support multilingue et un design réactif.</string>
-    <string name="button_text">Accepter</string>
+    <string name="titulo_app">Bienvenue</string>
+    <string name="button_text">Entrer</string>
 </resources>

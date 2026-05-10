@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Hello World Pro</string>
-    <string name="titulo_app">Hello World!</string>
-    <string name="texto">This is an application with multi-language support and responsive design.</string>
-    <string name="button_text">Accept</string>
+    <string name="titulo_app">Welcome</string>
+    <string name="button_text">Enter</string>
 </resources>
